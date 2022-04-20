@@ -1,0 +1,385 @@
+<html>
+
+    <head>
+    <title> My first website </title>
+    
+    <style type="text/css">
+        
+        body{
+            margin: 0;
+        }
+        .container{
+            width: 100%;
+            height: auto;
+           
+            margin: 0 auto;
+        }
+        
+        .top{
+            width: 75%;
+            height: 100;
+            margin: 0 auto;
+        }
+        
+        
+        .logo{
+            float: left;
+            width: 30%;
+            font-size: 40px;
+            font-family: inherit;
+            line-height: 100px;
+            color: #7F363E
+            
+        }
+        
+        
+        .menu{
+            float: right;
+            width: 70%;
+                
+        }
+        
+        ul{
+            list-style-type: none;
+            float: right;
+        }
+        
+        li{
+            font-weight: bold;
+            float: left;
+        }
+        li a {
+            display: block;
+            padding: 15px 16px;
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            font-family: Nunito;
+        }
+        .active{
+            color:#7F363E;            
+                    
+ 
+        }
+        
+        .hero{
+            height: 300px;
+            width: 100%;
+            background-color: #EBEBEB;
+            
+        }
+        .herocontainer{
+            width: 75%;
+            margin: 0 auto;
+            
+        }
+        .heroleft{
+            width: 70%;
+            float: left;
+            padding-top: 50px;
+             font-family: Nunito;
+            
+        }
+        .hero img{
+            text-align: right;
+        }
+        .heroleft h1{
+            font-size: 50px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .heroleft h6{
+            padding: 0;
+            margin: 0;
+            font-size: 20px;
+        }
+        .mywork{
+            margin: o auto;
+            width: 75%;
+
+        }
+        
+        .mywork h1 {
+            margin: 0 auto;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: Nunito;
+        }
+        
+        .mywork    .divider{
+            border: 1px solid #7F363E;
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .mywork img{
+            width: 300px;
+            height: 120px;
+            padding: 10px;
+            
+        }
+        
+        .Services{
+            margin: 0 auto;
+            width: 75%;
+            font-family: Nunito;
+        }
+        .Services h1{
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+        .Services .divider{
+            border: 1px solid #7F363E;
+            width: 300px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+        
+        .Service_container{
+            border: 1px solid  #EBEBEB;
+            width: 300px;
+            height: 400px;
+            float: left;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        .Service_container img {
+            margin-top: 20px;
+        }
+        
+        .Service_container p {
+            text-align: left;
+            padding: 15px;
+        }
+        
+        .btn {
+            background-color: #7F363E;
+            padding: 10px;
+            color: #FFF;
+            margin: 0 100px;
+        }
+        
+        .contactme {
+            width: 100%;
+            height: 125px;
+            background-color: aqua;
+            display: flex;
+            line-height: 90px;
+            margin-bottom: 40px;
+        }
+        
+        
+        .contactme_container {
+            width: 75%;
+            margin: 0 auto;
+        }
+        
+        .contactme h2 {
+            color: #7F363E;
+            font-family: Nunito;
+            float: left;
+        }
+        
+        .contactme .contact_botton {
+            height: 50px;
+            width: 200px;
+            border: 5px solid #7F363E;
+            float: right;
+            margin-top: 40px;
+        }
+        
+        .mailling {
+            margin: 0 auto;
+            width: 75%;
+            height: 300px;
+            margin-bottom: 50px;
+            
+        }
+        
+        .text_section{
+            float: left;
+            width: 50%;
+            font-family: Nunito;
+        }
+        
+        
+        .text_section h1 {
+            margin: 0;
+            font-size: 50px;
+            
+        }
+        
+        .form_section {
+            float: right;
+            text-align: right;
+            width: 50%;
+            padding-top: 20px;
+            
+        }
+        
+        input{
+            height: 30px;
+            width: 400px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #F7F7F7;
+            border: 0;
+        }
+        
+        
+      textarea   {
+            width: 400px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #F7F7F7;
+            border: 0;
+        }
+        
+        button{
+            width: 400;
+            padding: 20px;
+            background-color:  #7F363E;
+            color: #FFF;
+            border: 0;
+        }
+        
+        .footer {
+            width: 100%;
+            background-color: #363636;
+            text-align: center;
+            color: #FFF;
+            padding: 10px 0;
+        }
+        
+        
+        
+    </style>
+    
+    
+    </head>
+    <body>
+        <div class="container">
+            
+             <div class="top">
+                     <div class="logo">
+                       Abbdisalam
+                    </div>
+
+                 <div class="menu"> 
+                        <ul>
+                        <li ><a href="#" class="active">Home</a> </li>
+                        <li><a href="#">my work</a> </li>
+                        <li><a href="#">Service</a></li>
+                        <li> <a href="contact.html">  Contact</a></li>
+                        </ul>
+                     
+                     </div>
+            
+                 </div>
+            
+            <div class="hero">
+            <div class="herocontainer">
+               <div class="heroleft">
+                <h1> i am abdisalam </h1>
+                   <h6>  Graphic designer | web designer </h6>
+                   <p>Developing, designing, or creating new applications, ideas, relationships, systems, or products, including artistic contributions</p>
+                   
+                   <img src="facebook-svgrepo-com.svg" width="50px">
+                   <img src="instagram-svgrepo-com.svg" width="50px">
+                   <img src="twitter-svgrepo-com.svg" width="50px">
+                </div> 
+                <img src="my_%20image.jpg" width="200px" />
+            </div>
+            </div>
+            
+            <div class="mywork">
+              <h1>  My work</h1>
+                <div class="divider"></div>
+                <img src="A_free-file%20(2).png" width="100px">
+                <img src="LION_logo.png" width="100px">
+                <img src="best_LOGO.png" width="100px">
+            </div>
+            
+            <div class="Services">
+               <h1> What services you w'll getfor me</h1>
+                <div class="divider"></div>
+                
+                <div class="Service_container">
+                <img src="desktop-svgrepo-com.svg" width="100px">
+                    <h2>Web design </h2>
+                    <p> Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+                    
+                    <div class="btn">
+                       Read more
+                    </div>
+                
+                </div>
+            
+                
+                 <div class="Service_container">
+                <img src="web-design-svgrepo-com.svg" width="100px">
+                    <h2>UI/UX Design </h2>
+                    <p> A UX Designer is focused on all aspects of a product's development, including design, usability, function, and even branding and marketing. Their work touches the entire end-to-end journey of a user's interaction with a product, and includes identifying new opportunities for the product and business.</p>
+                    
+                    <div class="btn">
+                       Read more
+                    </div>
+                
+                </div>
+                
+                 <div class="Service_container">
+                <img src="mobie_app.jpg" width="100px">
+                    <h2>Mobile App design </h2>
+                    <p> Mobile app design encompasses both the user interface (UI) and user experience (UX). Designers are responsible for the overall style of the app, including things like the colour scheme, font selection, and the types of buttons and widgets the user will use.</p>
+                    
+                    <div class="btn">
+                       Read more
+                    </div>
+                
+                </div>
+                
+             </div>
+            
+            
+            
+            
+            
+            <div class="contactme">
+                <div class="contactme_container">
+                  <h2> Don't worry for contact i'm available </h2>
+                    <button class="contact_botton"> contact me</button>
+                    
+                </div>
+              
+            </div>
+            <div class="mailling">
+            <div class="text_section">
+                <h1>LETS WORK TOGETHER</h1>
+                <p> welcome here you will find everything about website design</p>
+                
+                </div>
+                <div class="form_section">
+                 <input type="text" name="myname" /> <br>
+                 <input type="text" name="Email" /> <br>
+                 <textarea rows="5"> </textarea> <br>
+                <button>  Send message</button>
+                
+                </div>
+            
+            </div>
+            
+            <div class="footer">
+              Copyright &copy; 2022 all rights reserved by Yasin
+            </div>
+          
+            
+        </div>
+        
+    
+    </body>
+
+<html>
